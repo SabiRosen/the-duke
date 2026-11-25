@@ -1,0 +1,44 @@
+.site-header {
+  position: relative;
+  z-index: 10;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.navbar {
+  padding-block: 0.75rem;
+
+  .navbar-brand img {
+    height: 6rem;   // 96px, adjust to match Figma
+    width: auto;
+  }
+
+  .navbar-nav {
+    gap: 0.5rem;
+  }
+
+    .nav-link {
+    padding: 0.5rem 1rem;
+    border: 2px solid transparent;   // keeps the layout stable
+    border-radius: 0.5rem;
+    color: $skum;
+    font-size: 1.125rem;             // adjust to match Figma
+    font-weight: $font-weight-normal;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.5rem;
+
+    &:hover,
+    &:focus-visible,
+    &.active {
+      color: $skum;
+      text-decoration-color: $guld;
+    }
+  }
+
+  // The always-outlined "Book bord" button
+  .nav-link--cta {
+    border-color: $guld;
+  }
+}
