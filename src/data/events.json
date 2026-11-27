@@ -1,0 +1,32 @@
+[
+  {
+    "id": "braetspilsaften",
+    "title": "Brætspilsaften",
+    "date": "2026-12-12",
+    "image": "braetspil.webp"
+  },
+  {
+    "id": "pub-quiz-17-dec",
+    "title": "Pub quiz",
+    "date": "2026-12-17",
+    "image": "pubquiz.webp"
+  },
+  {
+    "id": "gloog-og-aebleskiver",
+    "title": "Glægg og æbleskiver",
+    "date": "2026-12-25",
+    "image": "jul.webp"
+  },
+  {
+    "id": "pub-quiz-aarets-sidste",
+    "title": "Pub quiz - årets sidste",
+    "date": "2026-12-30",
+    "image": "pubquiz.webp"
+  },
+  {
+    "id": "karaoke-aften",
+    "title": "Karaoke-aften",
+    "date": "2027-01-17",
+    "image": "karaoke.webp"
+  }
+]

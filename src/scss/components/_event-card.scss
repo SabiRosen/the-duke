@@ -1,0 +1,42 @@
+.event-card {
+  flex: 0 0 auto;
+  width: clamp(16rem, 25vw, 24rem);
+  scroll-snap-align: start;
+
+  &__link {
+    display: block;
+    color: $chokolade;
+    text-decoration: none;
+
+    &:hover,
+    &:focus-visible {
+      color: $vinroed;
+    }
+  }
+
+  &__image {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+  }
+
+  &__body {
+    padding: 1.25rem 1.5rem;
+    background-color: $guld;
+  }
+
+  &__date {
+    display: block;
+    font-family: $headings-font-family;
+    font-size: 1.5rem;
+    font-weight: $font-weight-light;
+  }
+
+  &__title {
+    margin: 0;
+    font-family: $font-family-sans-serif;
+    font-size: 1.25rem;
+    font-weight: $font-weight-normal;
+  }
+}

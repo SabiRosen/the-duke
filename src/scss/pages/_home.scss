@@ -1,4 +1,4 @@
-// ---------- Hero ----------
+// ---------- HERO ----------
 .hero {
   position: relative;
   display: flex;
@@ -53,7 +53,7 @@
   }
 }
 
-// ---------- Intro ----------
+// ---------- INTRO ----------
 .intro {
   padding-top: 5rem;
   background-color: $creme;
@@ -152,7 +152,7 @@
     p { margin: 0; }
   }
 
-  &__highlight-label { font-size: 0.875rem; }
+  &__highlight-label { font-size: $font-size-base; }
 
   &__highlight-number {
     font-family: $headings-font-family;
@@ -163,22 +163,30 @@
 
   &__highlight-note {
     align-self: flex-end;
-    font-size: 0.75rem;
+    font-size: $font-size-base;
   }
 }
 
-// ---------- Buttons ----------
-.btn-duke {
-  padding: 0.75rem 2.5rem;
-  border: 2px solid $vinroed;
-  border-radius: 0.75rem;
-  color: $vinroed;
-  font-family: $headings-font-family;
-  font-size: 1rem;
+// ---------- Events ----------
+.events {
+  padding-block: 4rem;
+  background-color: $groen;
+  color: $skum;
 
-  &:hover,
-  &:focus-visible {
-    background-color: $vinroed;
-    color: $skum;
+  &__list {
+    display: flex;
+    gap: 1.5rem;
+    margin: 2.5rem 0 3rem;
+    padding: 0 1.5rem 1.5rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-padding-inline: 1.5rem;
+    scrollbar-width: thin;
+    scrollbar-color: $guld transparent;
+
+    @include media-breakpoint-up(xl) {
+      padding-inline: 3rem;
+      scroll-padding-inline: 3rem;
+    }
   }
 }

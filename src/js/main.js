@@ -5,3 +5,7 @@ import "@fontsource/source-sans-3/400.css";
 
 import "../scss/main.scss";
 import * as bootstrap from "bootstrap";
+
+import { renderEvents } from "./events.js";
+
+renderEvents();

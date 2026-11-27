@@ -1,0 +1,26 @@
+.btn-duke {
+  padding: 0.75rem 2.5rem;
+  border: 2px solid $vinroed;
+  border-radius: 0.75rem;
+  color: $vinroed;
+  font-family: $headings-font-family;
+  font-size: 1rem;
+
+  &:hover,
+  &:focus-visible {
+    background-color: $vinroed;
+    color: $skum;
+  }
+}
+
+
+.btn-duke--light {
+  border-color: $skum;
+  color: $skum;
+
+  &:hover,
+  &:focus-visible {
+    background-color: $skum;
+    color: $groen;
+  }
+}
