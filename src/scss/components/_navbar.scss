@@ -37,8 +37,11 @@
     }
   }
 
-  // The always-outlined "Book bord" button
-  .nav-link--cta {
-    border-color: $guld;
+  // "Book bord" button
+    .nav-link--cta {
+    border-color: transparent;
+    background:
+      linear-gradient($groen, $groen) padding-box,
+      radial-gradient(ellipse at center, $guld 0%, $guld-lys 40%, $guld 100%) border-box;
   }
 }

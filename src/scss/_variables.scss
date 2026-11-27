@@ -3,22 +3,23 @@ $font-family-sans-serif: "Source Sans 3", system-ui, sans-serif;
 $headings-font-family: "Plus Jakarta Sans", system-ui, sans-serif;
 
 // Text styles from Figma
-$font-size-base: 1.5rem;        // P: 24px
+$font-size-base: 1.25rem;        // P: 20px
 $font-weight-base: 300;         // P is light
-$h1-font-size: 2.25rem;         // H1: 36px
+$h1-font-size: 2rem;         // H1: 32px
 $headings-font-weight: 400;     // H1 is regular
-$display-font-sizes: (1: 3rem); // Display: 48px
+$display-font-sizes: (1: 2.5rem); // Display: 40px
 $display-font-weight: 300;      // Display is light
 
 // Bootstrap calculates h2-h6 from the base size, so set them
 // yourself or h2 ends up bigger than h1. Placeholders, adjust to your design:
-$h2-font-size: 1.75rem;
+$h2-font-size: 1.625rem;
 $h3-font-size: 1.5rem;
 $h4-font-size: 1.25rem;
 $headings-font-weight: 300;  
 
 // Brand colors
 $guld: #BA9769;
+$guld-lys: #F9E4c8;
 $skum: #F5F6DD;
 $creme: #E1D2BD;
 $groen: #09411F;
