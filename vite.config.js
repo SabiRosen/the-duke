@@ -6,7 +6,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: "index.html",
-        bookBord: "book-bord.html",
+        bookBord: "booking.html",
         events: "events.html",
         event: "event.html",
         barkort: "barkort.html",
